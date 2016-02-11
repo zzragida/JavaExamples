@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: sample.tomcat.multiconnector.SampleTomcatTwoConnectorsApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 2.915 sec <<< FAILURE! - in sample.tomcat.multiconnector.SampleTomcatTwoConnectorsApplicationTests
+testHello(sample.tomcat.multiconnector.SampleTomcatTwoConnectorsApplicationTests)  Time elapsed: 0.035 sec  <<< ERROR!
+java.lang.ClassCastException: sun.net.www.protocol.http.HttpURLConnection cannot be cast to javax.net.ssl.HttpsURLConnection
+	at sample.tomcat.multiconnector.SampleTomcatTwoConnectorsApplicationTests$MySimpleClientHttpRequestFactory.prepareConnection(SampleTomcatTwoConnectorsApplicationTests.java:108)
+	at org.springframework.http.client.SimpleClientHttpRequestFactory.createRequest(SimpleClientHttpRequestFactory.java:138)
+	at org.springframework.http.client.support.HttpAccessor.createRequest(HttpAccessor.java:77)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:592)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:557)
+	at org.springframework.web.client.RestTemplate.getForEntity(RestTemplate.java:289)
+	at sample.tomcat.multiconnector.SampleTomcatTwoConnectorsApplicationTests.testHello(SampleTomcatTwoConnectorsApplicationTests.java:84)
+

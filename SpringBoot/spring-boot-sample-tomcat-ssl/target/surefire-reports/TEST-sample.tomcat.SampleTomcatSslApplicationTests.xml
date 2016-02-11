@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="sample.tomcat.SampleTomcatSslApplicationTests" time="0.168" tests="1" errors="1" skipped="0" failures="0">
+  <properties>
+    <property name="idea.version" value="15.0.3"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Java\jdk1.8.0_71\jre\bin"/>
+    <property name="java.vm.version" value="25.71-b15"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="idea.launcher.port" value="7532"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="KR"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="E:\GithubWorkspace\JavaExamples\SpringBoot\spring-boot-sample-tomcat-ssl"/>
+    <property name="java.runtime.version" value="1.8.0_71-b15"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Java\jdk1.8.0_71\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\kjs2013\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\Program Files (x86)\JetBrains\IntelliJ IDEA Community Edition 15.0.2\plugins\maven\lib\maven3\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="MS949"/>
+    <property name="java.library.path" value="C:\Java\jdk1.8.0_71\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Python27\;C:\Python27\Scripts;C:\Program Files\ARM\Mali Developer Tools\Mali Graphics Debugger v3.1.0\gui\microsoft_redistributables;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\TortoiseSVN\bin;C:\Program Files\TortoiseGit\bin;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;H:\sdk\android-sdk-windows\platform-tools;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files (x86)\Xoreax\IncrediBuild;C:\Windows\system32\config\systemprofile\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files (x86)\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Program Files (x86)\WinMerge;C:\Program Files (x86)\NVIDIA Corporation\Cg\bin;C:\Program Files (x86)\NVIDIA Corporation\Cg\bin.x64;C:\Program Files (x86)\CMake\bin;C:\Program Files (x86)\Graphviz 2.28\bin;C:\Program Files (x86)\GtkSharp\2.12\bin;C:\Program Files\TortoiseHg\;C:\Program Files (x86)\Fuse\;C:\Go\bin;C:\Scala\bin;H:\tools\apache-maven-3.2.1-bin\apache-maven-3.2.1\bin;C:\NVPACK\android-sdk-windows\extras\android\support-tools;C:\\NVPACK\\android-sdk-windows\\build-tools;C:\NVPACK\android-sdk-windows\platform-tools;C:\NVPACK\android-sdk-windows\tools;C:\NVPACK\gradle-2.2.1\bin;C:\NVPACK\apache-ant-1.8.2\bin;C:\NVPACK\jdk1.7.0_71\bin;C:\NVPACK\android-ndk-r10e;C:\NVPACK\android-sdk-windows\tools;C:\Program Files\Bandizip\7z;C:\Users\kjs2013\AppData\Local\atom\bin;C:\Program Files (x86)\Microsoft VS Code\bin;C:\Users\kjs2013\AppData\Roaming\npm;C:\Program Files\ARM\Mali Developer Tools\Mali OpenGL ES Emulator 2.2.1&#13;&#13;&#13;&#13;&#13;&#13;&#13;;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\kjs2013"/>
+    <property name="user.timezone" value="Asia/Seoul"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="idea.launcher.bin.path" value="C:\Program Files (x86)\JetBrains\IntelliJ IDEA Community Edition 15.0.2\bin"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="kjs2013"/>
+    <property name="java.class.path" value="C:\Program Files (x86)\JetBrains\IntelliJ IDEA Community Edition 15.0.2\plugins\maven\lib\maven3\boot\plexus-classworlds-2.4.jar;C:\Program Files (x86)\JetBrains\IntelliJ IDEA Community Edition 15.0.2\lib\idea_rt.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Java\jdk1.8.0_71\jre"/>
+    <property name="sun.java.command" value="com.intellij.rt.execution.application.AppMain org.codehaus.classworlds.Launcher -Didea.version=15.0.3 package"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="ko"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_71"/>
+    <property name="java.ext.dirs" value="C:\Java\jdk1.8.0_71\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Java\jdk1.8.0_71\jre\lib\resources.jar;C:\Java\jdk1.8.0_71\jre\lib\rt.jar;C:\Java\jdk1.8.0_71\jre\lib\sunrsasign.jar;C:\Java\jdk1.8.0_71\jre\lib\jsse.jar;C:\Java\jdk1.8.0_71\jre\lib\jce.jar;C:\Java\jdk1.8.0_71\jre\lib\charsets.jar;C:\Java\jdk1.8.0_71\jre\lib\jfr.jar;C:\Java\jdk1.8.0_71\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Program Files (x86)\JetBrains\IntelliJ IDEA Community Edition 15.0.2\plugins\maven\lib\maven3"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="testHome" classname="sample.tomcat.SampleTomcatSslApplicationTests" time="0.168">
+    <error message="I/O error on GET request for &quot;http://localhost:53963&quot;: localhost:53963 failed to respond; nested exception is org.apache.http.NoHttpResponseException: localhost:53963 failed to respond" type="org.springframework.web.client.ResourceAccessException">org.springframework.web.client.ResourceAccessException: I/O error on GET request for "http://localhost:53963": localhost:53963 failed to respond; nested exception is org.apache.http.NoHttpResponseException: localhost:53963 failed to respond
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:143)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:57)
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:261)
+	at org.apache.http.impl.DefaultBHttpClientConnection.receiveResponseHeader(DefaultBHttpClientConnection.java:165)
+	at org.apache.http.impl.conn.CPoolProxy.receiveResponseHeader(CPoolProxy.java:167)
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:272)
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:124)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:271)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:55)
+	at org.springframework.http.client.HttpComponentsClientHttpRequest.executeInternal(HttpComponentsClientHttpRequest.java:91)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:53)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:596)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:557)
+	at org.springframework.web.client.RestTemplate.getForEntity(RestTemplate.java:289)
+	at sample.tomcat.SampleTomcatSslApplicationTests.testHome(SampleTomcatSslApplicationTests.java:43)
+</error>
+    <system-out><![CDATA[12:07:24.796 [main] DEBUG o.s.t.c.j.SpringJUnit4ClassRunner - SpringJUnit4ClassRunner constructor called with [class sample.tomcat.SampleTomcatSslApplicationTests]
+12:07:24.804 [main] DEBUG o.s.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+12:07:24.808 [main] DEBUG o.s.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+12:07:24.819 [main] DEBUG o.s.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [sample.tomcat.SampleTomcatSslApplicationTests] from class [org.springframework.boot.test.WebAppIntegrationTestContextBootstrapper]
+12:07:24.838 [main] DEBUG o.s.b.t.WebAppIntegrationTestContextBootstrapper - Found explicit ContextLoader class [org.springframework.boot.test.SpringApplicationContextLoader] for context configuration attributes [ContextConfigurationAttributes@1e127982 declaringClass = 'sample.tomcat.SampleTomcatSslApplicationTests', classes = '{class sample.tomcat.ssl.SampleTomcatSslApplication}', locations = '{}', inheritLocations = true, initializers = '{}', inheritInitializers = true, name = [null], contextLoaderClass = 'org.springframework.boot.test.SpringApplicationContextLoader']
+12:07:24.849 [main] DEBUG o.s.t.c.s.AbstractContextLoader - Did not detect default resource location for test class [sample.tomcat.SampleTomcatSslApplicationTests]: class path resource [sample/tomcat/SampleTomcatSslApplicationTests-context.xml] does not exist
+12:07:24.850 [main] DEBUG o.s.t.c.s.AbstractContextLoader - Did not detect default resource location for test class [sample.tomcat.SampleTomcatSslApplicationTests]: class path resource [sample/tomcat/SampleTomcatSslApplicationTestsContext.groovy] does not exist
+12:07:24.850 [main] INFO  o.s.t.c.s.AbstractContextLoader - Could not detect default resource locations for test class [sample.tomcat.SampleTomcatSslApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+12:07:24.852 [main] DEBUG o.s.t.c.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [sample.tomcat.SampleTomcatSslApplicationTests]
+12:07:24.856 [main] DEBUG o.s.test.util.ReflectionTestUtils - Setting field 'propertySourceProperties' of type [null] on target object [[WebMergedContextConfiguration@610694f1 testClass = SampleTomcatSslApplicationTests, locations = '{}', classes = '{class sample.tomcat.ssl.SampleTomcatSslApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', resourceBasePath = '', contextLoader = 'org.springframework.boot.test.SpringApplicationContextLoader', parent = [null]]] or target class [class org.springframework.test.context.web.WebMergedContextConfiguration] to value [[Ljava.lang.String;@43814d18]
+12:07:24.857 [main] DEBUG o.s.b.t.WebAppIntegrationTestContextBootstrapper - @TestExecutionListeners is not present for class [sample.tomcat.SampleTomcatSslApplicationTests]: using defaults.
+12:07:24.864 [main] INFO  o.s.b.t.WebAppIntegrationTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+12:07:24.873 [main] INFO  o.s.b.t.WebAppIntegrationTestContextBootstrapper - Could not instantiate TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/interceptor/TransactionAttributeSource]
+12:07:24.873 [main] INFO  o.s.b.t.WebAppIntegrationTestContextBootstrapper - Could not instantiate TestExecutionListener [org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/interceptor/TransactionAttribute]
+12:07:24.875 [main] INFO  o.s.b.t.WebAppIntegrationTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@4b1c1ea0, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@17579e0f, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@4d41cee, org.springframework.test.context.support.DirtiesContextTestExecutionListener@3712b94]
+12:07:24.877 [main] DEBUG o.s.t.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [sample.tomcat.SampleTomcatSslApplicationTests]
+12:07:24.878 [main] DEBUG o.s.t.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [sample.tomcat.SampleTomcatSslApplicationTests]
+12:07:24.881 [main] DEBUG o.s.t.c.j.SpringJUnit4ClassRunner - SpringJUnit4ClassRunner constructor called with [class sample.tomcat.SampleTomcatSslApplicationTests]
+12:07:24.881 [main] DEBUG o.s.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+12:07:24.881 [main] DEBUG o.s.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+12:07:24.882 [main] DEBUG o.s.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [sample.tomcat.SampleTomcatSslApplicationTests] from class [org.springframework.boot.test.WebAppIntegrationTestContextBootstrapper]
+12:07:24.883 [main] DEBUG o.s.b.t.WebAppIntegrationTestContextBootstrapper - Found explicit ContextLoader class [org.springframework.boot.test.SpringApplicationContextLoader] for context configuration attributes [ContextConfigurationAttributes@34cd072c declaringClass = 'sample.tomcat.SampleTomcatSslApplicationTests', classes = '{class sample.tomcat.ssl.SampleTomcatSslApplication}', locations = '{}', inheritLocations = true, initializers = '{}', inheritInitializers = true, name = [null], contextLoaderClass = 'org.springframework.boot.test.SpringApplicationContextLoader']
+12:07:24.884 [main] DEBUG o.s.t.c.s.AbstractContextLoader - Did not detect default resource location for test class [sample.tomcat.SampleTomcatSslApplicationTests]: class path resource [sample/tomcat/SampleTomcatSslApplicationTests-context.xml] does not exist
+12:07:24.884 [main] DEBUG o.s.t.c.s.AbstractContextLoader - Did not detect default resource location for test class [sample.tomcat.SampleTomcatSslApplicationTests]: class path resource [sample/tomcat/SampleTomcatSslApplicationTestsContext.groovy] does not exist
+12:07:24.884 [main] INFO  o.s.t.c.s.AbstractContextLoader - Could not detect default resource locations for test class [sample.tomcat.SampleTomcatSslApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+12:07:24.885 [main] DEBUG o.s.t.c.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [sample.tomcat.SampleTomcatSslApplicationTests]
+12:07:24.885 [main] DEBUG o.s.test.util.ReflectionTestUtils - Setting field 'propertySourceProperties' of type [null] on target object [[WebMergedContextConfiguration@7a1ebcd8 testClass = SampleTomcatSslApplicationTests, locations = '{}', classes = '{class sample.tomcat.ssl.SampleTomcatSslApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', resourceBasePath = '', contextLoader = 'org.springframework.boot.test.SpringApplicationContextLoader', parent = [null]]] or target class [class org.springframework.test.context.web.WebMergedContextConfiguration] to value [[Ljava.lang.String;@5faeada1]
+12:07:24.886 [main] DEBUG o.s.b.t.WebAppIntegrationTestContextBootstrapper - @TestExecutionListeners is not present for class [sample.tomcat.SampleTomcatSslApplicationTests]: using defaults.
+12:07:24.888 [main] INFO  o.s.b.t.WebAppIntegrationTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+12:07:24.888 [main] INFO  o.s.b.t.WebAppIntegrationTestContextBootstrapper - Could not instantiate TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/interceptor/TransactionAttributeSource]
+12:07:24.889 [main] INFO  o.s.b.t.WebAppIntegrationTestContextBootstrapper - Could not instantiate TestExecutionListener [org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/interceptor/TransactionAttribute]
+12:07:24.889 [main] INFO  o.s.b.t.WebAppIntegrationTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@78e67e0a, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@bd8db5a, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@2f943d71, org.springframework.test.context.support.DirtiesContextTestExecutionListener@80503]
+12:07:24.889 [main] DEBUG o.s.t.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [sample.tomcat.SampleTomcatSslApplicationTests]
+12:07:24.890 [main] DEBUG o.s.t.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [sample.tomcat.SampleTomcatSslApplicationTests]
+12:07:24.890 [main] DEBUG o.s.t.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [sample.tomcat.SampleTomcatSslApplicationTests]
+12:07:24.890 [main] DEBUG o.s.t.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [sample.tomcat.SampleTomcatSslApplicationTests]
+12:07:24.893 [main] DEBUG o.s.t.c.s.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@7d70d1b1 testClass = SampleTomcatSslApplicationTests, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@7a1ebcd8 testClass = SampleTomcatSslApplicationTests, locations = '{}', classes = '{class sample.tomcat.ssl.SampleTomcatSslApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{server.port:0, org.springframework.boot.test.IntegrationTest=true}', resourceBasePath = '', contextLoader = 'org.springframework.boot.test.SpringApplicationContextLoader', parent = [null]]], class annotated with @DirtiesContext [true] with mode [AFTER_CLASS].
+12:07:24.894 [main] DEBUG o.s.t.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [sample.tomcat.SampleTomcatSslApplicationTests]
+12:07:24.894 [main] DEBUG o.s.t.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [sample.tomcat.SampleTomcatSslApplicationTests]
+12:07:24.896 [main] DEBUG o.s.t.c.s.DependencyInjectionTestExecutionListener - Performing dependency injection for test context [[DefaultTestContext@7d70d1b1 testClass = SampleTomcatSslApplicationTests, testInstance = sample.tomcat.SampleTomcatSslApplicationTests@2353b3e6, testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@7a1ebcd8 testClass = SampleTomcatSslApplicationTests, locations = '{}', classes = '{class sample.tomcat.ssl.SampleTomcatSslApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{server.port:0, org.springframework.boot.test.IntegrationTest=true}', resourceBasePath = '', contextLoader = 'org.springframework.boot.test.SpringApplicationContextLoader', parent = [null]]]].
+12:07:24.958 [main] DEBUG o.s.core.env.StandardEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
+12:07:24.959 [main] DEBUG o.s.core.env.StandardEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
+12:07:24.959 [main] DEBUG o.s.core.env.StandardEnvironment - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+12:07:24.960 [main] DEBUG o.s.core.env.StandardEnvironment - Adding [integrationTest] PropertySource with search precedence immediately lower than [systemEnvironment]
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::  (v1.4.0.BUILD-SNAPSHOT)
+
+2016-02-11 12:07:25.298  INFO 12924 --- [           main] s.t.SampleTomcatSslApplicationTests      : Starting SampleTomcatSslApplicationTests on GMS-kjs2013 with PID 12924 (E:\GithubWorkspace\JavaExamples\SpringBoot\spring-boot-sample-tomcat-ssl\target\test-classes started by kjs2013 in E:\GithubWorkspace\JavaExamples\SpringBoot\spring-boot-sample-tomcat-ssl)
+2016-02-11 12:07:25.298  INFO 12924 --- [           main] s.t.SampleTomcatSslApplicationTests      : No active profile set, falling back to default profiles: default
+2016-02-11 12:07:25.330  INFO 12924 --- [           main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@56620197: startup date [Thu Feb 11 12:07:25 KST 2016]; root of context hierarchy
+2016-02-11 12:07:25.837  INFO 12924 --- [           main] o.s.b.f.s.DefaultListableBeanFactory     : Overriding bean definition for bean 'beanNameViewResolver' with a different definition: replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter.class]]
+2016-02-11 12:07:26.489  INFO 12924 --- [           main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 0 (https)
+2016-02-11 12:07:26.503  INFO 12924 --- [           main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2016-02-11 12:07:26.504  INFO 12924 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.0.30
+2016-02-11 12:07:26.621  INFO 12924 --- [ost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2016-02-11 12:07:26.621  INFO 12924 --- [ost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1293 ms
+2016-02-11 12:07:26.848  INFO 12924 --- [ost-startStop-1] o.s.b.c.e.ServletRegistrationBean        : Mapping servlet: 'dispatcherServlet' to [/]
+2016-02-11 12:07:26.852  INFO 12924 --- [ost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'characterEncodingFilter' to: [/*]
+2016-02-11 12:07:26.852  INFO 12924 --- [ost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2016-02-11 12:07:26.852  INFO 12924 --- [ost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2016-02-11 12:07:26.852  INFO 12924 --- [ost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'requestContextFilter' to: [/*]
+2016-02-11 12:07:27.064  INFO 12924 --- [           main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@56620197: startup date [Thu Feb 11 12:07:25 KST 2016]; root of context hierarchy
+2016-02-11 12:07:27.121  INFO 12924 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/]}" onto public java.lang.String sample.tomcat.ssl.web.SampleController.helloWorld()
+2016-02-11 12:07:27.123  INFO 12924 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2016-02-11 12:07:27.125  INFO 12924 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2016-02-11 12:07:27.149  INFO 12924 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-02-11 12:07:27.149  INFO 12924 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-02-11 12:07:27.184  INFO 12924 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-02-11 12:07:27.554  INFO 12924 --- [           main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 53963 (https)
+2016-02-11 12:07:27.557  INFO 12924 --- [           main] s.t.SampleTomcatSslApplicationTests      : Started SampleTomcatSslApplicationTests in 2.593 seconds (JVM running for 3.16)
+2016-02-11 12:07:27.711  INFO 12924 --- [           main] o.apache.http.impl.execchain.RetryExec   : I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://localhost:53963: The target server failed to respond
+2016-02-11 12:07:27.712  INFO 12924 --- [           main] o.apache.http.impl.execchain.RetryExec   : Retrying request to {}->http://localhost:53963
+2016-02-11 12:07:27.715  INFO 12924 --- [           main] o.apache.http.impl.execchain.RetryExec   : I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://localhost:53963: The target server failed to respond
+2016-02-11 12:07:27.715  INFO 12924 --- [           main] o.apache.http.impl.execchain.RetryExec   : Retrying request to {}->http://localhost:53963
+2016-02-11 12:07:27.719  INFO 12924 --- [           main] o.apache.http.impl.execchain.RetryExec   : I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://localhost:53963: The target server failed to respond
+2016-02-11 12:07:27.720  INFO 12924 --- [           main] o.apache.http.impl.execchain.RetryExec   : Retrying request to {}->http://localhost:53963
+]]></system-out>
+  </testcase>
+</testsuite>
