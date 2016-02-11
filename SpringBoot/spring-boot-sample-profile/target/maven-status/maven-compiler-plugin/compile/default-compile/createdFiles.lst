@@ -1,0 +1,5 @@
+sample\profile\service\MessageService.class
+sample\profile\SampleProfileApplication.class
+sample\profile\service\GenericService.class
+sample\profile\service\GoodbyeWorldService.class
+sample\profile\service\HelloWorldService.class

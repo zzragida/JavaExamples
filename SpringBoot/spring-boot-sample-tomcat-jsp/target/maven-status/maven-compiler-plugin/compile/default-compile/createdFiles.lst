@@ -1,0 +1,4 @@
+sample\tomcat\jsp\MyRestResponse.class
+sample\tomcat\jsp\MyException.class
+sample\tomcat\jsp\WelcomeController.class
+sample\tomcat\jsp\SampleTomcatJspApplication.class
